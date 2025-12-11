@@ -1,0 +1,143 @@
+{
+  "destinations": [
+    {
+      "id": 1,
+      "name": "Paris, France",
+      "description": "The City of Light, known for its iconic Eiffel Tower, world-class museums, and romantic atmosphere.",
+      "location": "France",
+      "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800",
+      "rating": 4.8,
+      "price": 1200,
+      "duration": "5 days",
+      "highlights": ["Eiffel Tower", "Louvre Museum", "Notre-Dame", "Seine River Cruise"]
+    },
+    {
+      "id": 2,
+      "name": "Tokyo, Japan",
+      "description": "A vibrant metropolis blending traditional culture with cutting-edge technology.",
+      "location": "Japan",
+      "image": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800",
+      "rating": 4.9,
+      "price": 1500,
+      "duration": "7 days",
+      "highlights": ["Shibuya Crossing", "Tokyo Skytree", "Senso-ji Temple", "Tsukiji Market"]
+    },
+    {
+      "id": 3,
+      "name": "New York, USA",
+      "description": "The Big Apple, a city that never sleeps with endless attractions and entertainment.",
+      "location": "United States",
+      "image": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=800",
+      "rating": 4.7,
+      "price": 1800,
+      "duration": "6 days",
+      "highlights": ["Statue of Liberty", "Central Park", "Times Square", "Brooklyn Bridge"]
+    },
+    {
+      "id": 4,
+      "name": "Bali, Indonesia",
+      "description": "Tropical paradise with stunning beaches, ancient temples, and lush rice terraces.",
+      "location": "Indonesia",
+      "image": "https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?w=800",
+      "rating": 4.6,
+      "price": 800,
+      "duration": "8 days",
+      "highlights": ["Ubud Rice Terraces", "Tanah Lot Temple", "Seminyak Beach", "Mount Batur"]
+    },
+    {
+      "id": 5,
+      "name": "Dubai, UAE",
+      "description": "Ultra-modern city with luxury shopping, stunning architecture, and desert adventures.",
+      "location": "United Arab Emirates",
+      "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=800",
+      "rating": 4.5,
+      "price": 2000,
+      "duration": "5 days",
+      "highlights": ["Burj Khalifa", "Palm Jumeirah", "Dubai Mall", "Desert Safari"]
+    },
+    {
+      "id": 6,
+      "name": "Santorini, Greece",
+      "description": "Breathtaking island with white-washed buildings, blue domes, and stunning sunsets.",
+      "location": "Greece",
+      "image": "https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e?w=800",
+      "rating": 4.9,
+      "price": 1100,
+      "duration": "4 days",
+      "highlights": ["Oia Sunset", "Red Beach", "Ancient Akrotiri", "Wine Tasting"]
+    }
+  ],
+  "packages": [
+    {
+      "id": 1,
+      "destinationId": 1,
+      "name": "Paris Romance Package",
+      "description": "Perfect for couples with romantic dinners and exclusive tours",
+      "price": 2500,
+      "duration": "5 days",
+      "includes": ["Hotel", "Breakfast", "Eiffel Tower Tour", "Seine Cruise", "Louvre Entry"],
+      "available": true
+    },
+    {
+      "id": 2,
+      "destinationId": 2,
+      "name": "Tokyo Culture Experience",
+      "description": "Immerse yourself in Japanese culture and traditions",
+      "price": 2800,
+      "duration": "7 days",
+      "includes": ["Hotel", "All Meals", "Temple Tours", "Sushi Making Class", "Bullet Train"],
+      "available": true
+    },
+    {
+      "id": 3,
+      "destinationId": 4,
+      "name": "Bali Adventure Package",
+      "description": "Explore beaches, temples, and rice terraces",
+      "price": 1500,
+      "duration": "8 days",
+      "includes": ["Resort Stay", "Breakfast", "Temple Tours", "Beach Activities", "Spa Session"],
+      "available": true
+    }
+  ],
+  "bookings": [
+    {
+      "id": 1,
+      "packageId": 1,
+      "userId": "user1",
+      "travelers": 2,
+      "checkIn": "2024-06-01",
+      "checkOut": "2024-06-06",
+      "totalPrice": 5000,
+      "status": "confirmed",
+      "bookingDate": "2024-01-15"
+    }
+  ],
+  "itineraries": [
+    {
+      "id": 1,
+      "bookingId": 1,
+      "destinationId": 1,
+      "day": 1,
+      "date": "2024-06-01",
+      "activities": [
+        {
+          "time": "09:00",
+          "activity": "Arrival at Paris Airport",
+          "location": "CDG Airport"
+        },
+        {
+          "time": "14:00",
+          "activity": "Hotel Check-in",
+          "location": "Hotel in Champs-Élysées"
+        },
+        {
+          "time": "18:00",
+          "activity": "Evening Seine River Cruise",
+          "location": "Seine River"
+        }
+      ]
+    }
+  ]
+}
+
+
